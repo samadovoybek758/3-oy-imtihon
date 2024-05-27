@@ -1,0 +1,41 @@
+.header__continer{
+    display: flex;
+    margin-top: 109px;
+    
+}
+.header__continer-left{
+    h1{
+        font-size: 52px;
+        font-weight: 600;
+        color: #363738;
+        line-height: 65px;
+        margin-top: 82px;
+        margin-bottom: 40px;
+        font-family: $font-2;
+    }
+    p{
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        color: #6B6B6C;
+        max-width: 525px;
+        margin-bottom: 40px;
+        font-family: $font-1;
+    }
+    .header__continer-link {
+        
+        a{
+            font-size: 16px;
+            font-weight: 700;
+            font-family: $font-1;
+            text-decoration: none;
+            color: #363738;
+        }
+        .link__osti{
+            width: 104px;
+            height: 3px;
+            background-color: #FFCE50;
+            margin-top:6px;
+        }
+    }
+}

@@ -13,3 +13,27 @@ $font-2:"Exo 2";
 }
 
 @import "./header";
+@import "./poisk.scss";
+
+
+
+@media screen and (max-width-990px) {
+    .continer{
+        max-width: 720px;
+    }
+}
+@media screen and (max-width-720px) {
+    .continer{
+        max-width: 650px;
+    }
+}
+@media screen and (max-width-650pxpx) {
+    .continer{
+        max-width: 500pxpx;
+    }
+}
+@media screen and (max-width-500px) {
+    .continer{
+        max-width: 300px;
+    }
+}

@@ -46,4 +46,48 @@
   height: 3px;
   background-color: #FFCE50;
   margin-top: 6px;
+}
+
+@media screen and (max-width-720px) {
+  .header__continer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.poisk__continer {
+  display: flex;
+  align-items: center;
+}
+.poisk__continer .card {
+  max-width: 228px;
+}
+.poisk__continer .card .poisk__img {
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+  background-color: #E9E9EC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width-990px) {
+  .continer {
+    max-width: 720px;
+  }
+}
+@media screen and (max-width-720px) {
+  .continer {
+    max-width: 650px;
+  }
+}
+@media screen and (max-width-650pxpx) {
+  .continer {
+    max-width: 500pxpx;
+  }
+}
+@media screen and (max-width-500px) {
+  .continer {
+    max-width: 300px;
+  }
 }/*# sourceMappingURL=style.css.map */

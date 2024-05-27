@@ -1,0 +1,18 @@
+.poisk__continer{
+    display: flex;
+    align-items: center;
+
+    .card{
+        max-width: 228px;
+
+        .poisk__img{
+            width: 92px;
+            height: 92px;
+            border-radius: 50%;
+            background-color: #E9E9EC;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
